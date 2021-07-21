@@ -1,0 +1,177 @@
+*{
+	/* Universal reset: */
+	margin:0;
+	padding:0;
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+header,footer,
+section,
+hgroup,nav,
+div{
+	/* Giving a display value to the HTML5 rendered elements: */
+	display:block;
+}
+
+body{
+	/* Setting the default text color, size, page background and a font stack: */
+	width: 1400px;
+	margin: auto;
+	font-size:0.85em;
+	color:#fcfcfc;
+	font-family:cursive, Helvetica, sans-serif;
+    background-image: linear-gradient(#778899, #4682B4, LightBlue);
+}
+
+/* Headings: */
+
+h1 {
+	/* The logo text */
+	font-size:3.5em;
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+	text-align: center;
+	text-shadow:0 1px 1px black;
+}
+
+h3 {
+	padding:0.5em 0 0;
+	text-transform:uppercase;
+	text-shadow:0 1px 1px black;
+}
+
+
+/* The navigation styling: */
+.nav ul {
+	text-align: center;
+}
+.nav a{
+	align-items: center;
+	border: 3px solid black;
+	text-decoration:none;
+	outline:none;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a,
+nav ul li a:visited{
+	color:#734d26;
+	display:block;
+	font-size:1.25em;
+	font-weight:bold;
+	margin:5px 2px;
+	padding:7px 10px 4px;
+	text-shadow:0 1px 1px white;
+	text-transform:uppercase;
+}
+
+nav ul li a:hover{
+	text-decoration:none;
+	background-color:#f0f0f0;
+}
+
+nav, article, nav ul li a,figure{
+	/* Applying CSS3 rounded corners: */
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+.line{
+	/* The dividing line: */
+	height:1px;
+	background-color:#2d5986;
+	border-bottom:1px solid #22415e;
+	margin:1em 0;
+	overflow:hidden;
+}
+
+#d1 {
+	margin: 10px 400px;
+}
+
+footer .line{
+	margin:2em 0;
+}
+
+/* Footer styling: */
+
+footer{
+	margin-bottom:30px;
+	text-align:center;
+	font-size:0.825em;
+    overflow: hidden;
+}
+
+footer p{
+	position:relative;
+    color: #cccccc;
+    background-color:#336499;
+}
+
+footer a,footer a:visited{
+	color:#cccccc;
+	background-color:#336499;
+	display:block;
+	padding:2px 4px;
+	z-index:100;
+	position:relative;
+}
+
+footer a:hover{
+	text-decoration:none;
+	background-color:#79a4d2;
+}
+
+footer a.by{
+	float:left;
+}
+
+footer a.up{
+	float:right;
+}
+
+/* input styling: */
+form {
+	font-size: 20px;
+}
+input{
+	margin-left: 1em;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+}
+.form1 {
+	float: left;
+	width: 5em;
+	text-align: left;
+}
+.form2 {
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+select {
+	width: 300px;
+	height: 40px;
+}
+
+#submit {
+	margin-left: 5.5em;
+}
+#reset {
+	margin-left: 3em;
+}
+.button {
+	width: 150px;
+	height: 50px;
+	background-color: #79a4d2;
+	font-size: 30px;
+}
